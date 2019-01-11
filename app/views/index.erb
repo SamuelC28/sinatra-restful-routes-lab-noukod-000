@@ -7,14 +7,12 @@
     <th>cook_time</th>
     <th>Action</th>
   </thead> -->
-  <tbody>
-    <% @recipes.each do |r| %>
-      <tr>
-        <td><%= r.name %></td>
-        <td><%= r.ingredients %></td>
-        <td><%= r.cook_time %></td>
-        <td><a href="/recipes/<%= r.id %>"</td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <!-- <tbody> -->
+    <p><% @recipes.each do |r| %></p>
+        <p><%= r.name %></p>
+        <p><%= r.ingredients %></p>
+        <p><%= r.cook_time %></p>
+        <p><a href="/recipes/<%= r.id %>"</p>
+    <p><% end %>
+  <!-- </tbody>
+</table> -->
