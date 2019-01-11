@@ -4,6 +4,6 @@ class CreateRecipes < ActiveRecord::Migration
       column.string "name"
       column.string "ingredients"
       column.string "cook_time"
+    end
   end
- end
 end
