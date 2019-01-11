@@ -8,7 +8,11 @@
     <th>Action</th>
   </thead> -->
   <!-- <tbody> -->
-    <p><%= @recipes%></p>
-
+    <h2><%= @recipes%></p> .each do |r| %>  </h2>
+        <h2>  <%= r.name %></h2>
+        <h2>  <%= r.ingredients %></h2>
+        <h2>  <%= r.cook_time %></h2>
+        <h2>  <a href="/recipes/<%= r.id %>"</h2>
+    <h2>  <% end %>"</h2>
   <!-- </tbody>
 </table> -->
