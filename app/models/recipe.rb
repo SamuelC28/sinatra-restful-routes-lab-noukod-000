@@ -1,5 +1,5 @@
 #Placeholder for a model
-class CreateUser < ActiveRecord::Migration
+class Recipe < ActiveRecord::Migration
   def change
     create_table :recipes do |t|
       t.string :name
